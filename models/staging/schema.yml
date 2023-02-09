@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: staging
+    database: fair-expanse-371613
+    schema: kritagya_data
+
+    tables:
+      - name: ny_rides_green
+      - name: ny_rides_yellow
